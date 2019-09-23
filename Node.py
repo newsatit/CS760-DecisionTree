@@ -2,9 +2,9 @@ import numpy as np
 from scipy.stats import entropy
 
 
-def get_entropy(data):
-    p_data = data.value_counts()
-    return entropy(p_data)
+def get_entropy(labels):
+    p_labels = labels.value_counts()
+    return entropy(p_labels, base=2)
 
 
 class Node:
