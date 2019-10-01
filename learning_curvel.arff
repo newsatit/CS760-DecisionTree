@@ -1,0 +1,12 @@
+@relation learning_curvel
+
+@attribute training_size numeric
+@attribute num_node numeric
+@attribute test_error numeric
+
+@data
+32,11,0.207412
+128,21,0.094027
+512,37,0.061947
+2048,93,0.025996
+8192,233,0.011615

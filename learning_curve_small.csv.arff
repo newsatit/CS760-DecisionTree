@@ -1,0 +1,9 @@
+@relation learning_curve_small
+
+@attribute training_size numeric
+@attribute num_node numeric
+@attribute test_error numeric
+
+@data
+32,13,0.159292
+128,27,0.120022
